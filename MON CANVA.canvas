@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"d955d2e109e180ff","type":"text","text":"# 😂 Comment gérer ma vie ?\n\n- [[Planning]]\n- [[Mes tâches]]\n- [[Mes loisirs]]\n- [[Bilan quotidien]]\n- [[Calendrier]]\n\nObjectif : organiser ma vie sans devenir un robot.","x":-220,"y":-260,"width":425,"height":253,"color":"5"},
+		{"id":"6e3a45a0469bc0db","type":"text","text":"# 📅 Mon planning\n\n- Organiser mes journées\n- Répartir mes révisions\n- Prévoir des pauses\n- Éviter de tout remettre à demain","x":-680,"y":120,"width":250,"height":275,"color":"1"},
+		{"id":"7a21e390b8b2fb5b","type":"text","text":"# 🎓 Mission : Obtenir mon diplôme\n\n- [[Mathématiques]]\n- [[Python]]\n- [[Intelligence artificielle]]\n- [[Bases de données]]\n- [[Calendrier]]\n\nObjectif : travailler régulièrement et réussir mes examens.","x":280,"y":98,"width":420,"height":320,"color":"6"},
+		{"id":"c17f7b3230faf1bd","type":"text","text":"# 🎮 Mes loisirs\n\n- Jeux vidéo\n- Films et séries\n- Sorties\n- Sport\n- Temps libre\n\nRègle : travailler sérieusement, mais profiter aussi de la vie.","x":-680,"y":-880,"width":250,"height":351,"color":"2"},
+		{"id":"7defc83ddd263ed9","type":"text","text":"# ✅ Mes tâches\n\n## Aujourd'hui\n- [ ] Réviser un chapitre\n- [ ] Faire mes exercices\n- [ ] Ranger ma chambre\n- [ ] Faire une activité physique\n\n## À ne pas oublier\n- [ ] Préparer les examens\n- [ ] Avancer dans mes projets","x":-132,"y":-924,"width":250,"height":440,"color":"4"},
+		{"id":"8d236c728e520d76","x":-45,"y":395,"width":250,"height":360,"color":"3","type":"text","text":"# 🌙 Bilan quotidien\n\n- Qu'est-ce que j'ai accompli aujourd'hui ?\n- Qu'est-ce que j'aurais pu mieux faire ?\n- Qu'est-ce qui m'a motivé ?\n- Quelle est ma priorité demain ?\n\nMême un petit progrès reste un progrès."}
+	],
+	"edges":[
+		{"id":"7b16f8f52c3e2002","fromNode":"d955d2e109e180ff","fromSide":"bottom","toNode":"7a21e390b8b2fb5b","toSide":"top"},
+		{"id":"e74808155b7f0243","fromNode":"d955d2e109e180ff","fromSide":"bottom","toNode":"6e3a45a0469bc0db","toSide":"top"},
+		{"id":"66ff6253e5501019","fromNode":"7a21e390b8b2fb5b","fromSide":"bottom","toNode":"7defc83ddd263ed9","toSide":"right"},
+		{"id":"d392dabdb8343c9f","fromNode":"6e3a45a0469bc0db","fromSide":"bottom","toNode":"7defc83ddd263ed9","toSide":"left"},
+		{"id":"2a44c040813886ae","fromNode":"d955d2e109e180ff","fromSide":"bottom","toNode":"7defc83ddd263ed9","toSide":"top"},
+		{"id":"bacb7c037a8cdf65","fromNode":"d955d2e109e180ff","fromSide":"top","toNode":"c17f7b3230faf1bd","toSide":"right"},
+		{"id":"a3b3fc8d3961ee76","fromNode":"6e3a45a0469bc0db","fromSide":"left","toNode":"c17f7b3230faf1bd","toSide":"bottom"},
+		{"id":"f98828901d5fee92","fromNode":"7defc83ddd263ed9","fromSide":"bottom","toNode":"8d236c728e520d76","toSide":"left"},
+		{"id":"47eb25e3e1433fa4","fromNode":"7a21e390b8b2fb5b","fromSide":"bottom","toNode":"8d236c728e520d76","toSide":"top"},
+		{"id":"930cee0575248821","fromNode":"6e3a45a0469bc0db","fromSide":"bottom","toNode":"8d236c728e520d76","toSide":"left"},
+		{"id":"addeeef7fccb10b0","fromNode":"d955d2e109e180ff","fromSide":"right","toNode":"8d236c728e520d76","toSide":"top"},
+		{"id":"bf174f2c0f1f4cab","fromNode":"c17f7b3230faf1bd","fromSide":"left","toNode":"8d236c728e520d76","toSide":"bottom"}
+	]
+}
